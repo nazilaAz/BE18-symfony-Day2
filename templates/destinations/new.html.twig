@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+	{% block navbar %}
+		{% include 'components/navbar.html' %}
+	{% endblock %}
+	{% block form %}
+	<div class="container m-auto mt-5">
+    <fieldset class="border">
+    <legend>Create Record</legend>
+		{{form(form)}}
+    </fieldset>
+	</div>
+	{% endblock %}
+{% endblock %}

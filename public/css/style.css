@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+body,
+html {
+  font-size: 16px;
+  font-family: "Righteous", cursive;
+  height: 100vh;
+}
+body .bg,
+html .bg {
+  /* The image used */
+  background-image: url("https://cdn.pixabay.com/photo/2017/01/20/00/30/maldives-1993704__340.jpg");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  margin-left: 1rem;
+}
+
+footer {
+  position: fixed;
+  bottom: 10px;
+  font-size: 0.9rem;
+  width: 100%;
+  padding: 0 1rem;
+  color: black;
+  z-index: 2;
+}/*# sourceMappingURL=style.css.map */

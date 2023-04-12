@@ -1,0 +1,14 @@
+{% extends "./base.html.twig" %}
+
+{% block body %}
+	{% block navbar %}
+		{% include 'components/navbar.html' %}
+	{% endblock %}
+	<div class="container w-4/5 m-auto pt-40">
+		<h1 class="text-6xl text-center pb-12">
+			Update
+		</h1>
+
+		{{ form(form, {'method': 'POST'}) }}
+	</div>
+{% endblock %}
